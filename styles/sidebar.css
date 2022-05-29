@@ -15,4 +15,22 @@
     background-color: red;
     top: 0;
     right: 0;
+    width: 380px;
+    background-color:rgb(252, 250, 250);
+    border-left-color: rgb(233, 233, 233);
+    border-left-width: 0.1px;
+    border-left-style: solid;
+}
+.nav-top{
+    left: 281px;
+    background-color:rgb(252, 250, 250);
+    top: 0;
+    position: fixed;
+    right: 381px;
+    height: 41px;
+    display: flex;
+    flex-direction: row;
+}
+.nav-top p{
+    font-weight: bold;
 }
