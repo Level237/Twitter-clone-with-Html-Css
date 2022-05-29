@@ -23,14 +23,27 @@
 }
 .nav-top{
     left: 281px;
-    background-color:rgb(252, 250, 250);
+    background-color:rgb(253, 251, 251);
     top: 0;
     position: fixed;
     right: 381px;
     height: 41px;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom-color: rgb(233, 233, 233);
+    border-bottom-width: 0.0px;
+    border-bottom-style: solid;
 }
 .nav-top p{
-    font-weight: bold;
+    font-weight: 600;
+    margin-left: 12px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.nav-top img{
+    width: 35px;
+    cursor: pointer;
+    margin-right: 12px;
 }
