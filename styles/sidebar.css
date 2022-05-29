@@ -47,3 +47,19 @@
     cursor: pointer;
     margin-right: 12px;
 }
+.tweet-logo{
+    width: 35px;
+    position:absolute;
+    left: 30px;
+    top: 20px;
+}
+.menu-container{
+    display: flex;
+    position: absolute;
+    top: 90px;
+    left: 30px;
+}
+
+.icon-menu{
+    width: 25px;
+}
