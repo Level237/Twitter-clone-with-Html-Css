@@ -86,3 +86,18 @@
 .icon-menu{
     width: 30px;
 }
+
+.search{
+    position: absolute;
+    top: 4px;
+    left: 35px;
+    padding-right: 100px;
+    padding-left: 20px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    border-radius: 50px;
+    border-color: rgba(255, 255, 255, 0.096);
+    border-width: 1px;
+    background-color: rgba(228, 228, 238, 0.664);
+    font-size: 14px;
+}
