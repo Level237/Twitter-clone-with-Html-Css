@@ -101,3 +101,56 @@
     background-color: rgba(228, 228, 238, 0.664);
     font-size: 14px;
 }
+.box-container-tendance{
+    background-color: rgba(228, 228, 238, 0.664);
+    position: absolute;
+    width: 300px;
+    height: 600px;
+    
+    left: 35px;
+    top:64px;
+    
+}
+.trending-town{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.trending-town p{
+    flex: 1;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.623);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.trending-town img{
+    width: 20px;
+    margin-right: 15px;
+}
+.town{
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+.tweets{
+    color: rgba(0, 0, 0, 0.623);
+    font-size: 13px;
+    margin-top: 2px;
+}
+.tendance-container{
+    margin-bottom: 18px;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+.tendance-container:hover{
+    background-color:rgba(0, 0, 0, 0.11);
+}
