@@ -154,3 +154,6 @@
 .tendance-container:hover{
     background-color:rgba(0, 0, 0, 0.11);
 }
+.box-container-tendance h4{
+    margin-left: 12px;
+}
