@@ -64,14 +64,15 @@
     background-color:  rgb(6, 162, 235);
     border: none;
     color: white;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 90px;
+    padding-right: 90px;
     padding-top: 15px;
     padding-bottom: 15px;
     font-size: 15px;
     font-weight: bold;
-    border-radius: 18px;
+    border-radius: 50px;
     cursor: pointer;
+    margin-top: 12px;
 }
 .flex-menu{
     display: flex;
@@ -156,4 +157,40 @@
 }
 .box-container-tendance h4{
     margin-left: 12px;
+}
+.profil-container{
+    display: flex;
+    position: absolute;
+    bottom: 25px;
+    left: 20px;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 50px;
+}
+.profil-container:hover{
+    background-color: rgba(207, 205, 205, 0.637);
+}
+.profil-container img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    
+}
+.profil-container div{
+    width: 150px;
+    
+}
+.profil-container .icon-more{
+    width: 14px;
+}
+.title{
+    margin-bottom: 5px;
+    margin-top :0px;
+    font-size: 15px;
+    font-weight: bold;
 }
