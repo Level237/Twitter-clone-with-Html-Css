@@ -102,6 +102,9 @@
     background-color: rgba(228, 228, 238, 0.664);
     font-size: 14px;
 }
+.search:hover{
+    background-color: white;
+}
 .box-container-tendance{
     background-color: rgba(228, 228, 238, 0.288);
     position: absolute;
