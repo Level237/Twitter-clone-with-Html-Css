@@ -71,8 +71,17 @@ hr{
     width: 20px;
     cursor: pointer;
 }
+.hover-1{
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 50%;
+}
 .hover-1:hover{
-    background-color: rgb(6, 162, 235);
+    background-color: rgba(10, 172, 247, 0.103);
+    
+    
 }
 .tweet-button{
     background-color: rgb(6, 162, 235);
