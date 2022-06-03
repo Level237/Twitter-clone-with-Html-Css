@@ -42,7 +42,7 @@
     
 }
 .reply img{
-    width: 15px;
+    width: 13px;
     color: blue;
     margin-right: 4px;
 }
@@ -70,6 +70,9 @@ hr{
 .icon{
     width: 20px;
     cursor: pointer;
+}
+.hover-1:hover{
+    background-color: rgb(6, 162, 235);
 }
 .tweet-button{
     background-color: rgb(6, 162, 235);
