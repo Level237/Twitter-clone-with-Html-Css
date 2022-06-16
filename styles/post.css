@@ -1,0 +1,34 @@
+.post-container{
+    display: block;
+}
+
+.post-container-header{
+    display: flex;
+}
+
+.post-container-header img {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.post-container-header div{
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    
+}
+.post-container-header div img{
+    width: 22px;
+    height: 22px;
+    
+}
+.post-container-header div span{
+    color: grey;
+    font-size: 13px;
+    margin-left: 3px;
+}
