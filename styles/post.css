@@ -15,19 +15,21 @@
     cursor: pointer;
 }
 
-.post-container-header div{
-    font-weight: bold;
-    font-size: 14px;
-    display: flex;
-    align-items: center;
-    
-}
-.post-container-header div img{
+
+.post-container-header .post-container-header-bloc div img{
     width: 22px;
     height: 22px;
     
 }
-.post-container-header div span{
+
+.post-container-header-bloc{
+    display: block;
+}
+.post-container-header-bloc div{
+    display: flex;
+    font-weight: bold;
+}
+.post-container-header .post-container-header-bloc span{
     color: grey;
     font-size: 13px;
     margin-left: 3px;
