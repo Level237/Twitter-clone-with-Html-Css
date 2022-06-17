@@ -4,6 +4,9 @@
 
 .post-container-header{
     display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    margin-bottom: 50px;
 }
 
 .post-container-header img {
