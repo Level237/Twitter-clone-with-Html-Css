@@ -46,4 +46,23 @@
     font-weight: normal;
     width: 530px;
     margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.post-container-header-bloc .interaction{
+    margin-top: 12px;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post-container-header-bloc .interaction .interaction-comment{
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.post-container-header-bloc .interaction .interaction-comment span{
+    font-size: 12px;
 }
