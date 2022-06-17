@@ -42,6 +42,8 @@
 
 .post-container-header-bloc .comment{
     color: black;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: normal;
+    width: 530px;
+    margin-top: 5px;
 }
